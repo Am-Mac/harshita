@@ -1,65 +1,48 @@
 *{
     margin: 0;
     padding: 0;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 900;
-  background-color: #F8EDE3;
-
-}
-
-h1,h4,h5,h6{
-  font-weight: bold;
-  line-height: 1.5;
-    font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-h2,h3{
-  font-weight: bold;
-  line-height: 1.5;
-    font-size: 2rem;
-  margin-bottom: 1rem;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #F8EDE3;
+  }
 
 p{
-  color: #7D6E83;
+  color: #3D3C42;
+  font-weight: 500;
 }
 
 .hr {
   border-style: dotted none none none;
   border-width: 10px;
-  width: 10%;
+  width: 20%;
   margin: auto;
-  color: #9f9f9f;
+  color: black;
 }
 
 .title {
   background-color:F8EDE3;
-  color: #7D6E83;
+  color: #3D3C42;
   margin-right: 0;
 }
 
-  .navbar{
-    margin: 0;
-    padding: 0 0 3rem;  
-   }
-   .navbar-nav{
-    text-align: center;
-   }
-    .navbar-brand{
-    --bs-navbar-brand-font-size: 3rem;
-  }
-  .navbar-toggler{
-    --bs-navbar-toggler-font-size: 2rem;
-  }
-
-  .row{
-    margin: 0;
-    align-items: center;
-    padding: 5%;
-  }
-  
-
+.navbar{
+  margin: 0;
+  padding: 0 0 3rem;  
+}
+ .navbar-nav{
+  text-align: center;
+}
+  .navbar-brand{
+  --bs-navbar-brand-font-size: 3rem;
+}
+.navbar-toggler{
+  --bs-navbar-toggler-font-size: 2rem;
+}  
+.row{
+  margin: 0;
+  align-items: center;
+  padding: 5%;
+}
 .h-image-1{
   height: 90%;
   width: 90%;
@@ -71,21 +54,24 @@ p{
 .content{
   line-height: 1.5;
   padding-top: 5%;
-  color: #7D6E83;
+  color: #3D3C42;
   margin: auto 0 auto 0;
+  font-size: 1.2rem;
 }
 
 .toHarshita{
   padding: 3% 5%;
   color:  black;
+  font-weight: 900;
+  font-size: 1.8rem;
 }
 
 .para-1 {
-  padding: 5% 10% 2% 5%;
+ padding: 5% 10% 2% 5%;
  text-align: left;
 }
 .para-3{
-  padding: 5% 10% 2% 5%;
+  padding: 5% 10% 5% 5%;
  text-align: left;
 }
 .para-2 {  
@@ -96,15 +82,29 @@ p{
     padding: 5% 5% 2% 10%;
     text-align: right;
 }
+.footer{
+  background-color: #F8EDE3;
+  padding: 10% 0 10% 0;
+  text-align: center;
+}
+.btn{
+  background-color: gray;
+  font-size: 1.8rem;
+  width: 40%;
+}
+.btn:hover{
+  color: white;
+  background-color: black;
+}
 
   @media (max-width: 700px) {
-    .navbar{
-      padding: 0 0 3rem;
+    .big-heading{
+      font-size: 2rem;
     }
     .navbar-brand{
-      --bs-navbar-brand-font-size: 2rem;
+     font-size: 2rem;
     }
     .navbar-toggler{
-      --bs-navbar-toggler-font-size: 2rem;
+     font-size: 2rem;
     }
   }
