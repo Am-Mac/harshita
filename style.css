@@ -13,13 +13,14 @@ font-weight: 900;
   background-size: cover;
   background-position: center;
   position: relative;
+
 }
 .navbar{
   padding: 0 0 3rem;
-  
 }
 .navbar-brand{
  font-size: 3rem;
+ color: #EEF1FF;
 }
 .navbar-toggler{
  font-size: 2rem;
@@ -35,7 +36,7 @@ font-weight: 900;
   font-size: 100px;
 /* -webkit-text-stroke: 1px #fff; */
   color: transparent;
-  background-image: linear-gradient(#fff,#fff);
+  background-image: linear-gradient(#EEF1FF,#EEF1FF);
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
@@ -50,7 +51,7 @@ font-weight: 900;
   font-size: 100px;
   /* -webkit-text-stroke: 1px #fff; */
   color: transparent;
-  background-image: linear-gradient(#fff,#fff);
+  background-image: linear-gradient(#EEF1FF,#EEF1FF);
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
@@ -66,7 +67,7 @@ font-weight: 900;
   font-size: 100px;
   /* -webkit-text-stroke: 1px #fff; */
   color: transparent;
-  background-image: linear-gradient(#fff,#fff);
+  background-image: linear-gradient(#EEF1FF,#EEF1FF);
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
@@ -79,28 +80,31 @@ font-weight: 900;
     background-position: 0 0;
   }
 }
+
 .btn{
   position: absolute;
   top: 75%;
   left: 50%;
   transform: translate(-50%,-50%);
   background-color: transparent;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family:  'Montserrat', sans-serif;
-  font-weight: 500;
   animation: appearance 14s linear forwards;
 }
 @keyframes appearance {
   0%{
     color: transparent;
+    border: none;
   }
   99%{
     color: transparent;
     background-color: transparent;
+    border: none;
   }
   100%{
-    color: white;
+    color: #EEF1FF;
     background-color: gray;
+    border: 2px solid black;
   }
 }
 
